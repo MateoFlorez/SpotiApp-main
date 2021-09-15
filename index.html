@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotiApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/Spotify_Logo_RGB_White.png" alt="SpotiApp">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#cancion">Tracks</a>
+                </li>
+                <li>
+                    <a href="#redes">Redes</a>
+                </li>
+                <li>
+                    <a href="index2.html">Portafolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+        <div class="slideshow-container" id="inicio">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+              <img src="img/imagen3.jpg" style="width:100%" height="500px">
+              <div class="text">Sad Affleck</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <img src="img/imagen2.jpg" style="width:100%">
+              <div class="text">H E L I O</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span>  
+            </div>
+        <div class="container" id="cancion">
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="fila">
+
+            </div>
+        </div>
+
+    
+
+    <footer>
+        <div class="redes" id="redes">
+            <span>Redes: </span>
+            <a href="https://www.youtube.com/channel/UCV1d0C3IT8oCi5U5qXiwEdQ" class="fa fa-youtube"></a>
+            <a href="https://open.spotify.com/artist/6nvMHST6D3nERFTOoCDqby" class="fa fa-spotify"></a>
+        </div>
+    </footer>
+    
+    <script src="servicio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
